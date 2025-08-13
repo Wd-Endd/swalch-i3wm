@@ -44,7 +44,7 @@ class CONFIG:
 - You must You need to reconfigure the launcher wallpaper file. Ex:
 ```Bash
 #!/usr/bin/env bash
-#wallpaper_launcher.sh
+#wallpaper-launcher.sh
 
 killall -q xwallpaper
 xwallpaper --daemon --stretch \
@@ -62,6 +62,10 @@ exec python ~/.local/opt/swalch-i3wm/main.py $@
 ```
 ```sh
 # ~/.config/i3/config
+
+# to sure when reload wallpaper while i3wm reseting
+exec-alway --no-startup-id "~/.config/i3/wallpaper-launch"
+
 # ...
 
 bindsym $mod+bracketright exec "~/.config/i3/swalch next"; restart

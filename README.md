@@ -18,8 +18,9 @@ To install ``swalch-i3``, follow the tutorial below.
 Some prepare to setup ``swalch``.
 
 1. Your Window Manager is ``i3wm`` or ``sway``.
-2. ``git`` command (recommend)
-3. You must make sure there is no problem restarting i3wm
+2. ``git`` command. (recommend)
+3. You must make sure there is no problem restarting i3wm.
+4. Wallpaper must be reload when retart i3wm.
 
 ### Setup
 

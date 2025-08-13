@@ -41,7 +41,7 @@ class CONFIG:
     wallpapers = [".jpeg", ".jpg", ".png"]
 ```
 4. Reconfigure Your wallpaper launch (First time)
-You must You need to reconfigure the launcher wallpaper file. Ex:
+- You must You need to reconfigure the launcher wallpaper file. Ex:
 ```Bash
 #!/usr/bin/env bash
 #wallpaper_launcher.sh
@@ -52,7 +52,7 @@ xwallpaper --daemon --stretch \
     "%%THIS_WALLPAPER%%"
 ```
 5. Make a shortcut and keybind to run the script
-Ex:
+- Ex:
 ```sh
 #!/usr/bin/env bash
 # ~/.config/i3/swalch
@@ -69,6 +69,6 @@ bindsym $mod+bracketleft exec "~/.config/i3/swalch prev"; restart
 
 #...
 ```
-Done, enjoy it?!        ... No animation -_-
+- Done, enjoy it?!        ... No animation -_-
 
 ## Thanks for see it <3

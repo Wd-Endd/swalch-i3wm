@@ -7,6 +7,6 @@ Swalch is a personal project to Make Wallpaper Switch script for I3 Window Manag
 
 You can make a Key Shortcut to run this script
 
-https://github.com/Wd-Endd/swalch-i3wm/raw/refs/heads/main/.preview/2025_08_13_07_14_40.mp4
+![Video.gif](https://github.com/Wd-Endd/swalch-i3wm/raw/refs/heads/main/.preview/2025_08_13_07_14_40.gif)
 
 ...
